@@ -1,8 +1,6 @@
-import React from "react";
-
-const App = () => {
+const App = ({className}: {className: string}) => {
     return (
-        <div>abcdddsaafas333s</div>
+        <div className={className}>hello world</div>
     )
 }
 
